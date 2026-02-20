@@ -1,0 +1,46 @@
+#mainTopic
+{
+    color: blue;
+}
+
+*
+{
+    text-align: center;
+}
+
+.heading
+{
+    font-style: Georgia;
+}
+
+.paragraph
+{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button
+{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover
+{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n)
+{
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+    }
+
+
+#check:checked + label{
+    color: darkgreen;
+}
