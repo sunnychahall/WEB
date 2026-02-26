@@ -1,0 +1,21 @@
+#outer
+{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(0, 164, 151);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+
+#outer div{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 20%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}

@@ -1,0 +1,35 @@
+#container
+{
+    height: 300px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;  
+    align-items: flex-start;
+}
+
+#container div{
+    height: 150px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#org
+{
+    align-self: flex-start;
+    /*flex-basis: 700px; */
+    flex-shrink: 2;
+}
+
+#red
+{
+    align-self: flex-start;
+    /*flex-basis: 700px; */
+    flex-shrink: 2;
+}
