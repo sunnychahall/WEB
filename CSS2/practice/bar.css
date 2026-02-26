@@ -1,0 +1,17 @@
+#outer
+{
+    border: 2px solid rgb(3, 162, 171);
+    border-radius: 10px;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    background-color: pink;
+    align-items: center;
+}
+
+#outer div{
+    height: 50px;
+    width: 90px;
+    font-size: 24px;
+    margin-left: 5px;
+}
