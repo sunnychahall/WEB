@@ -48,3 +48,40 @@
     grid-column-end: 13;
 }
 
+@media (max-width: 720px)
+{
+    #header
+{
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+#sidebar
+{
+    grid-column: 1/ span 3;
+    grid-row: 3/ span 9;
+}
+#nav
+{
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 12;
+}
+
+#ad
+{
+    grid-column: 1/ span 3;
+    grid-row: 12/ span 1;
+}
+
+#main
+{
+    grid-column: 4/ span 9;
+    grid-row: 3/ span 9;
+}
+
+#foot
+{
+    grid-column-start: 4;
+    grid-column-end: 13;
+}
+}
+
