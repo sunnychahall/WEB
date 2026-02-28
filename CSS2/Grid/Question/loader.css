@@ -1,0 +1,25 @@
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1.7s infinite;
+    }
+
+    .loader:hover
+    {
+        border-top-color: red;
+       animation-direction: reverse;
+    }
+    @keyframes spin {
+    0% {
+    /* Set rotation to 0 degrees */
+    transform: rotate(0deg);
+    }
+    100% {
+    /* Set rotation to 360  */
+    transform: rotate(360deg);
+    }
+
+    
