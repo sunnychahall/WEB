@@ -224,15 +224,15 @@ a{
 }
 .album
 {
-    width: 25%;
+    width: 30%;
 }
 
 .player{
-    width: 50%;
+    width: 45%;
 }
 
 .controls{
-    width: 50%;
+    width: 25%;
 }
 
 .player-controls-icon
@@ -267,7 +267,7 @@ a{
 
 .progress-bar
 {
-    width: 70%;
+    width: 60%;
     appearance: none;
     background-color: transparent;
     cursor: pointer;
@@ -288,4 +288,31 @@ a{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -0.33rem;
+}
+
+.album-icon
+{
+    position: absolute;
+    left: 5px;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.player-controls-album-icon
+{
+    position: absolute;
+    top : 28px;
+    left: 270px;
+}
+
+.player-controls-controls
+{
+    opacity: 0.7;
 }
