@@ -46,12 +46,33 @@
 // console.log(`without space ${s.trim()}`);
 
 
-let num = [2, 4, 6];
-n = 4;
-if (num.indexOf(n) === -1)
-{
-    console.log("Yes");
-}
-else{
-    console.log("No");
-}
+// let num = [2, 4, 6];
+// n = 4;
+// if (num.indexOf(n) === -1)
+// {
+//     console.log("Yes");
+// }
+// else{
+//     console.log("No");
+// }
+
+// let num = 234
+// let count = 0;
+// while (num > 0)
+// {
+//     count++;
+//     num = Math.floor(num / 10);
+// }
+
+// console.log(count);
+
+
+// let num = 235
+// let sum = 0;
+// while (num > 0)
+// {
+//     sum += num % 10;
+//     num = Math.floor(num / 10);
+// }
+
+// console.log(sum);
