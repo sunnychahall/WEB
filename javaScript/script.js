@@ -121,20 +121,38 @@
 // OddEven(req);
 
 
-let s = "abbccd";
+// let s = "abbccd";
 
-let removeDup = function(str) {
-    let ans = "";
+// let removeDup = function(str) {
+//     let ans = "";
     
-    for (let i = 0; i < str.length; i++) {
-        let curr = str[i];
+//     for (let i = 0; i < str.length; i++) {
+//         let curr = str[i];
         
-        if (ans.indexOf(curr) == -1) {
-            ans += curr;
-        }
-    }
+//         if (ans.indexOf(curr) == -1) {
+//             ans += curr;
+//         }
+//     }
     
-    return ans;
-}
+//     return ans;
+// }
 
-console.log(removeDup(s));
+// console.log(removeDup(s));
+
+// let arr = [3, 3, 3, 3]
+
+// let avg = (array) => {
+//     let sum = 0;
+//     for (let i = 0; i < array.length; i++)
+//     {
+//         sum += array[i];
+//     }
+//     return (sum / array.length);
+// }
+
+// console.log(avg(arr));
+
+
+let n = 2;
+let isEven = (n) => ((n % 2) == 0);
+console.log(isEven(n));
