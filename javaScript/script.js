@@ -153,6 +153,12 @@
 // console.log(avg(arr));
 
 
-let n = 2;
-let isEven = (n) => ((n % 2) == 0);
-console.log(isEven(n));
+// let n = 2;
+// let isEven = (n) => ((n % 2) == 0);
+// console.log(isEven(n));
+
+
+let n = [10, 20, 30, 550];
+
+let ans = n.every((el) => ((el % 10) == 0));
+console.log(ans);
