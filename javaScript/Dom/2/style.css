@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+
+h3{
+    margin-bottom: 20px; /* space below h3 */
+}
+
+button{
+    margin-top: 20px;    /* space above button */
+}
