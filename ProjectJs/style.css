@@ -1,0 +1,46 @@
+h1, h2{
+    text-align: center;
+}
+
+.line
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn
+{
+    border: 2px solid black;
+    border-radius: 1.7rem;
+    height: 170px;
+    width: 170px;
+    margin: 1.3em;
+}
+
+#pink
+{
+    background-color: #d95980;
+    #f99b45;
+}
+
+#yellow
+{
+    background-color: #f99b45;
+    
+}
+
+#blue
+{
+    background-color: #63aac0;
+}
+
+#purple
+{
+    background-color: #819ff9;
+}
+
+.flashbtn
+{
+    background-color: white;
+    opacity: 0.5;
+}
