@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+    background: #f5f7fa;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background: #1976d2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+.employee-card {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.employee-card button {
+    background: red;
+    margin-top: 10px;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}

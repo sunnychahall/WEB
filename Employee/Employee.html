@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee App</title>
+    <link rel="stylesheet" href="Employee.css">
+</head>
+
+<body>
+
+<h2>Employee Management System</h2>
+
+<div id="message"></div>
+
+<div class="form">
+
+    <input id="name" placeholder="Name">
+    <input id="email" placeholder="Email">
+    <input id="age" type="number" placeholder="Age">
+
+    <input id="role" placeholder="Role">
+    <input id="isActive" placeholder="true/false">
+    <input id="salary" type="number" placeholder="Salary">
+
+    <br>
+
+    <button onclick="addEmployee()">Add Employee</button>
+    <button onclick="getAllEmployees()">Load Employees</button>
+
+</div>
+
+<hr>
+
+<div id="employeeList"></div>
+
+<script src="Employee.js"></script>
+
+</body>
+</html>
